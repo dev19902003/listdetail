@@ -24,7 +24,7 @@ release-workflow:
       CM_KEY_ALIAS_PASSWORD: $keyPassword
       CM_KEY_ALIAS_USERNAME: $keyAlias
   scripts:
-    - |
+    - name: Build release apk
     # set up release keystore
   storePassword :$storePassword
   keyPassword: $keyPassword
